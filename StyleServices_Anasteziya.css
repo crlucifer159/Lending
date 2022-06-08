@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    font-size: 14px;
+    color: #797979;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 400;
+    width: 100%;
+    font-family: 'Raleway',sans-serif;
+}
+nav{
+    padding: 23px;
+    background-color: #666;
+    z-index: auto;
+    position: fixed; /* Фиксированное положение */
+    
+    width: 100%;
+    top: 0%;
+    background-color: #666;
+}
+nav.a{
+    text-align: right;
+}
+a{
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+} 
+a:hover{
+    color: black;
+}
+h1{
+    margin-top: 76px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 40px;
+}
+h2{
+    line-height: 33.6px;
+    font-size: 23px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    font-weight: 400;
+}
+p{
+    font-size: 15px;
+    line-height: 21px;
+}
+ul{
+    line-height: 25px;
+}
+.mybtn{
+    text-align: center; 
+    padding: 8px 10px; 
+    border: solid 1px #777777; 
+    color: #77777777; 
+    background:#ffffff;
+    -webkit-transition: all .3s linear;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.mybtn:hover {
+    color: #fff;
+    background: #333;
+    -webkit-transition: all .3s linear;
+}
+.registr{
+    border: 2px solid #f8beef;
+    width: 300px;
+    margin: 20px;
+    
+}
